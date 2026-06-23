@@ -1,0 +1,1 @@
+console.log("este é o script do head")

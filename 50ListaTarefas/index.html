@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <style>
+       body{
+            background-color: #121212;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+        }
+
+        h1{
+            margin-bottom: 25px;
+            text-align: center;
+        }
+
+        .input-group{
+            width: 100%;
+            max-width: 600px;
+        }
+
+        .form-control{
+            background-color: #1e1e1e;
+            color: white;
+            border: 1px solid #444;
+        }
+
+        .form-control::placeholder{
+            color: #aaa;
+        }
+
+        .form-control:focus{
+            background-color: #1e1e1e;
+            color: white;
+            border-color: #0d6efd;
+            box-shadow: none;
+        }
+
+        .btn{
+            background-color: #0d6efd;
+            color: white;
+            border: none;
+        }
+
+        .btn:hover{
+            background-color: #0b5ed7;
+        }
+
+        h2{
+            margin: 30px 0 15px;
+            text-align: center;
+        }
+
+        #lista{
+            width: 100%;
+            max-width: 600px;
+            padding: 0;
+        }
+
+        #lista li{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+
+            background-color: #1e1e1e;
+            padding: 12px 16px;
+            margin-bottom: 12px;
+            border-radius: 10px;
+            list-style: none;
+        }
+
+        #lista li span{
+            flex: 1;
+            font-size: 18px;
+            word-break: break-word;
+        }
+
+        #lista li button{
+            width: 40px;
+            height: 40px;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #lista li i{
+            font-size: 18px;
+        }
+
+        .delete-btn:hover{
+            background-color: red;
+        }
+
+        .check-btn:hover{
+            background-color: rgb(1, 40, 1);
+        }
+
+        .check{
+            background-color: green !important;
+        }
+
+        .hide{
+            display: none !important;
+        }
+    </style>
+</head>
+<body>
+    <h1>Salve a sua próxima tarefa:</h1>
+
+    <div class="input-group mb-3">
+        <input type="text" class="form-control tarefa" placeholder="O que você vai fazer?" aria-label="Username" aria-describedby="basic-addon1">
+        <button class="btn" id="btn"><i class="bi bi-plus"></i></button>
+    </div>
+
+    
+
+    <ul id="lista">
+        <h2>Estas são as suas tarefas:</h2>
+        <li class="lista-tarefa template hide">
+            <span class="tarefa"></span>
+            <button class="btn check-btn"><i class="bi bi-check"></i></button>
+            <button class="btn delete-btn"><i class="bi bi-x"></i></button>
+        </li>
+    </ul>
+
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
