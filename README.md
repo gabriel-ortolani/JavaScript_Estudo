@@ -1,18 +1,18 @@
-# 📚 Estudos de JavaScript
+# 📚 JavaScript - Estudos e Projetos
 
-Este repositório reúne todos os exercícios, exemplos e pequenos projetos desenvolvidos durante meus estudos de **JavaScript**. O objetivo é registrar minha evolução na linguagem, praticar conceitos fundamentais e criar aplicações que reforcem o aprendizado.
+Este repositório reúne todos os exercícios, exemplos e projetos desenvolvidos durante meus estudos de **JavaScript**. O objetivo é registrar minha evolução na linguagem, praticar conceitos fundamentais e aplicar o conhecimento em pequenos projetos.
 
 ## 🎯 Objetivo
 
-Consolidar os conhecimentos em JavaScript por meio de exemplos práticos, manipulação do DOM, eventos e desenvolvimento de pequenos projetos.
+Praticar JavaScript desde os conceitos básicos até recursos mais avançados, explorando manipulação do DOM, eventos, programação assíncrona e desenvolvimento de aplicações web.
 
-## 📂 Estrutura do Repositório
+---
 
-Cada pasta corresponde a um tópico ou exercício específico estudado durante o aprendizado.
+## 📖 Conteúdo Estudado
 
-### Fundamentos
+### 🟢 Fundamentos
 
-* Primeiro programa
+* Primeiro programa em JavaScript
 * Inserindo JavaScript no HTML
 * Particularidades da linguagem
 * Variáveis
@@ -23,22 +23,23 @@ Cada pasta corresponde a um tópico ou exercício específico estudado durante o
 * Objetos
 * Arrays
 
-### Operadores e Estruturas Condicionais
+### 🔀 Operadores e Estruturas Condicionais
 
 * If
 * Else
-* Comparações
+* Comparação
 * Comparação de tipo e valor
 * Operadores lógicos (AND, OR e NOT)
 * Operadores de atribuição
 
-### Estruturas de Repetição
+### 🔁 Estruturas de Repetição
 
 * While
 * For
-* Break e Continue
+* Break
+* Continue
 
-### Funções e Escopo
+### ⚙️ Funções e Escopo
 
 * Functions
 * Callback Functions
@@ -46,79 +47,125 @@ Cada pasta corresponde a um tópico ou exercício específico estudado durante o
 * This
 * Let e Const
 
-### Métodos
+### 📚 Métodos
 
-* Métodos de String
-* Métodos de Array
+#### Números
+
 * Métodos Numéricos
 
-### Manipulação do DOM
+#### Strings
 
-* Seleção de elementos
+* Métodos de String
+* Métodos de String (Parte 2)
+
+#### Arrays
+
+* Métodos de Array
+* Métodos de Array (Parte 2)
+
+### 🌐 Manipulação do DOM
+
+* DOM
+* DOM (Parte 2)
 * Query Selector
 * Alteração de conteúdo
 * Criação de elementos
 * Remoção de elementos
 * Adição de elementos
-* Substituição de elementos
+* Troca de elementos
 * Alteração de atributos
 * Alteração de CSS
 * Document
 
-### Eventos
+### 🖱️ Eventos
 
-* onload
-* click
-* mouseover
-* keydown
-* setTimeout
-* setInterval
-* clearTimeout
-* clearInterval
+* Callback Functions
+* Evento Onload
+* Evento Click
+* Evento Mouseover
+* Evento Keydown
 
-### Projetos
+### ⏱️ Temporizadores
+
+* SetTimeout
+* SetInterval
+* ClearTimeout
+* ClearInterval
+
+### 🌍 Programação Assíncrona
+
+* Async
+* Await
+
+### 📄 Manipulação de Dados
+
+* JSON
+
+### 💻 Projeto
 
 * Lista de Tarefas (To-Do List)
+
+---
 
 ## 🛠️ Tecnologias Utilizadas
 
 * HTML5
 * CSS3
 * JavaScript (ES6+)
-* Bootstrap
+* Bootstrap 5
 * Bootstrap Icons
+
+---
 
 ## 🚀 Como Executar
 
-1. Clone este repositório:
+Clone o repositório:
 
 ```bash
-git clone https://github.com/gabriel-ortolani/JavasSript_Estudo.git
+git clone https://github.com/seu-usuario/JavaScript_Estudo.git
 ```
 
-2. Acesse a pasta desejada.
+Entre na pasta desejada e abra o arquivo `index.html` no navegador.
 
-3. Abra o arquivo `index.html` no navegador.
+Cada diretório representa um exercício, exemplo ou projeto independente.
 
-Cada diretório funciona de forma independente e representa um exercício ou projeto específico.
+---
 
-## 📖 Conteúdos Praticados
+## 📈 Habilidades Desenvolvidas
 
-Ao longo destes estudos foram praticados conceitos como:
+Ao longo deste repositório foram praticados conceitos como:
 
-* Variáveis
-* Tipos de dados
-* Operadores
+* Lógica de programação
 * Estruturas condicionais
-* Laços de repetição
+* Estruturas de repetição
 * Funções
+* Escopo
 * Objetos
 * Arrays
 * Métodos nativos
 * Manipulação do DOM
 * Eventos
-* Alteração dinâmica de elementos
+* Criação dinâmica de elementos
 * Manipulação de classes e estilos
-* Organização de código
+* Programação assíncrona
+* Consumo e manipulação de JSON
+* Organização e reutilização de código
 
+---
 
+## 🎯 Próximos Conteúdos
+
+* Consumo de APIs REST
+* Fetch API
+* Local Storage
+* Modules
+* Promises
+* Classes
+* Orientação a Objetos
+* ES Modules
+
+---
+
+## 📄 Licença
+
+Este repositório foi desenvolvido exclusivamente para fins de estudo e prática em JavaScript.
