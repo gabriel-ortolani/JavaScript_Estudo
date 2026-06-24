@@ -1,0 +1,9 @@
+{
+    "nome": "gabriel",
+    "idade": 18,
+    "esta_estudando": true,
+    "detalhes_estudo": {
+        "estudo": "JavaScript"
+    },
+    "hobbies": ["programar", "jogar"]
+}
