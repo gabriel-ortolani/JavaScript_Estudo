@@ -151,21 +151,3 @@ Ao longo deste repositório foram praticados conceitos como:
 * Consumo e manipulação de JSON
 * Organização e reutilização de código
 
----
-
-## 🎯 Próximos Conteúdos
-
-* Consumo de APIs REST
-* Fetch API
-* Local Storage
-* Modules
-* Promises
-* Classes
-* Orientação a Objetos
-* ES Modules
-
----
-
-## 📄 Licença
-
-Este repositório foi desenvolvido exclusivamente para fins de estudo e prática em JavaScript.
