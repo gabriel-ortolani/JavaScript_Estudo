@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal JavaScript</title>
+    <script src="js/script.js" defer></script>
+    <style>
+        *{
+            font-family: Helvetica;
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            padding: 1rem;
+        }
+
+        h1{
+            margin-bottom: 1rem;
+        }
+
+        button{
+            padding: 0.6rem 1.2rem;
+            background-color: #888;
+            color: #fff;
+            border: none;
+            border-radius: 0.25rem;
+            cursor: pointer;
+            opacity: 0.9;
+            font-size: 1rem;
+            transition: 0.4s;
+        }
+
+        #open-modal{
+            background-color: #007bff;
+        }
+
+        button:hover{
+            opacity: 1;
+        }
+
+        #fade, #modal{
+            transition: 0.5s;
+            opacity: 1;
+            pointer-events: all;
+        }
+
+        #fade{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+            z-index: 5;
+        }
+
+        #modal{
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #fff;
+            z-index: 10;
+            width: 500px;
+            max-width: 90%;
+            padding: 1.2rem;
+            border-radius: 0.5rem;
+        }
+
+        .modal-header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #ccc;
+            margin-bottom: 1rem;
+            padding-bottom: 1rem;
+        }
+
+        .modal-body p{
+            margin-bottom: 1rem;
+        }
+
+        #modal.hide,
+        #fade.hide{
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        #modal.hide{
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>JavaScript Modal</h1>
+    <button id="open-modal">abrir</button>
+    <div id="fade" class="hide"></div>
+    <div id="modal" class="hide">
+        <div class="modal-header">
+            <h2>Este é o modal</h2>
+            <button id="close-modal">Fechar</button>
+        </div>
+        <div class="modal-body">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eum nulla earum accusamus qui eligendi doloremque soluta quos accusantium, voluptates delectus sit perferendis cumque deserunt aspernatur, eius, deleniti facere fugiat?</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius saepe molestias quia. Quam et, recusandae nesciunt magni consequuntur magnam accusamus ipsum totam quas dolorum, exercitationem ea voluptates sapiente labore corporis.</p>
+        </div>
+    </div>
+</body>
+</html>
