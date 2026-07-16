@@ -101,9 +101,61 @@ Praticar JavaScript desde os conceitos básicos até recursos mais avançados, e
 
 * JSON
 
-### 💻 Projeto
+---
 
-* Lista de Tarefas (To-Do List)
+## 💻 Projetos
+
+### 📋 Lista de Tarefas (To-Do List)
+
+Projeto desenvolvido para praticar manipulação do DOM e eventos através de uma aplicação de gerenciamento de tarefas.
+
+**Funcionalidades:**
+
+- Adicionar tarefas
+- Editar tarefas
+- Remover tarefas
+- Pesquisar tarefas
+- Filtrar tarefas por status
+- Atualização dinâmica da interface
+
+### 📊 Métodos de Array
+
+Projeto criado para colocar em prática os principais métodos de arrays do JavaScript.
+
+**Conceitos trabalhados:**
+
+- `forEach()`
+- `map()`
+- `filter()`
+- `reduce()`
+- `find()`
+- `some()`
+- `every()`
+- `includes()`
+- `sort()`
+
+### 🌙 Light & Dark Mode
+
+Aplicação que permite alternar entre os temas claro e escuro da página.
+
+**Funcionalidades:**
+
+- Alternância entre Light e Dark Mode
+- Manipulação de classes CSS
+- Eventos de clique
+- Persistência da preferência utilizando LocalStorage
+
+### 🪟 Modal
+
+Projeto desenvolvido para praticar a criação de janelas modais utilizando JavaScript puro.
+
+**Funcionalidades:**
+
+- Abrir modal
+- Fechar modal pelo botão
+- Fechar clicando fora da janela (overlay)
+- Manipulação dinâmica de classes CSS
+- Organização do código com funções reutilizáveis
 
 ---
 
@@ -122,7 +174,7 @@ Praticar JavaScript desde os conceitos básicos até recursos mais avançados, e
 Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/JavaScript_Estudo.git
+git clone https://github.com/gabriel-ortolani/JavaScript_Estudo.git
 ```
 
 Entre na pasta desejada e abra o arquivo `index.html` no navegador.
@@ -139,15 +191,26 @@ Ao longo deste repositório foram praticados conceitos como:
 * Estruturas condicionais
 * Estruturas de repetição
 * Funções
+* Callback Functions
 * Escopo
 * Objetos
 * Arrays
-* Métodos nativos
+* Métodos nativos de Array, String e Number
 * Manipulação do DOM
-* Eventos
-* Criação dinâmica de elementos
+* Manipulação de atributos
 * Manipulação de classes e estilos
-* Programação assíncrona
+* Criação dinâmica de elementos
+* Eventos
+* Desenvolvimento de interfaces interativas
+* Criação de Modais
+* Implementação de Light & Dark Mode
+* Persistência de dados com LocalStorage
+* Programação assíncrona (Async/Await)
 * Consumo e manipulação de JSON
 * Organização e reutilização de código
 
+---
+
+## 📌 Observações
+
+Este repositório faz parte da minha jornada de aprendizado em desenvolvimento web. Novos exercícios, conceitos e projetos serão adicionados conforme avanço nos estudos de JavaScript e suas aplicações.
